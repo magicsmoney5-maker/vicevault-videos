@@ -149,6 +149,13 @@ def render_scene(i, sc, length, work):
             png = f"{work}/s{i:02d}_{j}.png"
             run(["ffmpeg", "-v", "error", "-y", "-ss", str(s["in"]), "-i", src, "-frames:v", "1"] + (["-vf", pc.rstrip(",")] if pc else []) + [png])
             n = int(round(need * FPS)); z = s.get("zoom", 1.12)
+            if s.get("pan") and layout == "full":  # slow horizontal pan across a still: pan=[x_start, x_end]
+                p0, p1 = s["pan"]
+                vfp = f"scale=-2:{H}:flags=bicubic,crop={W}:{H}:'(iw-{W})*({p0}+({p1}-{p0})*n/{n})':0,fps={FPS},setsar=1"
+                run(["ffmpeg", "-v", "error", "-y", "-loop", "1", "-i", png, "-vf", vfp, "-frames:v", str(n),
+                     "-c:v", "libx264", "-preset", "veryfast", "-crf", "16", "-pix_fmt", "yuv420p", p])
+                parts.append(p)
+                continue
             base = (f"scale=-2:{H}:flags=bicubic,crop={W}:{H}:(iw-{W})*{x}:0" if layout == "full" else f"scale={W}:-2")
             vf2 = (f"{base},scale={W*2}:-2,zoompan=z='1+({z}-1)*on/{n}':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d={n}:s={W}x{H if layout == 'full' else 608}:fps={FPS}")
             if layout != "full":

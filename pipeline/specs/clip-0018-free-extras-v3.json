@@ -1,0 +1,234 @@
+{
+ "id": "2026-11-14-0018",
+ "out": "~/vvv/out/2026-11-14-0018-free-extras-v3.mp4",
+ "voice": "~/vvv/vo/0018d.mp3",
+ "music": "~/vvv/THEME-breaking-news.mp3",
+ "music_gain_db": -17,
+ "caption_size": 116,
+ "credit": "Images and footage: Rockstar Games",
+ "hook": {
+  "title": "DON'T MISS NOV 20",
+  "tag": "GTA 6 PRE-ORDER BONUS"
+ },
+ "end": {
+  "text": "BUY BEFORE\\NNOV 20",
+  "tag": "SEND THIS TO A FRIEND"
+ },
+ "highlights": [
+  "STANIER",
+  "GARAGE",
+  "RETRO",
+  "PATTERN",
+  "DIGITALLY",
+  "PLUS",
+  "20TH"
+ ],
+ "fixups": {
+  "GTA (6|VI|SIX)'S": "GTA 6'S",
+  "GTA (6|VI|SIX)\\b": "GTA 6",
+  "\\bVI\\b": "6",
+  "\\bstanyer\\b": "Stanier",
+  "\\bvapid\\b": "Vapid",
+  "GTA\\+": "GTA PLUS"
+ },
+ "cards": [
+  {
+   "at": 18.1,
+   "end": 21.45,
+   "text": "BEFORE NOV 20",
+   "sub": "ANY EDITION \u00b7 DIGITAL OR BOXED",
+   "size": 140
+  }
+ ],
+ "scenes": [
+  {
+   "label": "",
+   "at": 0,
+   "shots": [
+    {
+     "src": "VINTAGE_VICE_CITY_PACK_VAPID_STANIER_01",
+     "in": 0.5,
+     "len": 2.5,
+     "layout": "full",
+     "x": 0.7,
+     "still": true,
+     "zoom": 1.08,
+     "pan": [
+      0.72,
+      0.12
+     ]
+    },
+    {
+     "src": "VINTAGE_VICE_CITY_PACK_EXCLUSIVE_LOOKS_01",
+     "in": 0.5,
+     "len": 1.5,
+     "layout": "full",
+     "x": 0.6,
+     "still": true,
+     "zoom": 1.06
+    },
+    {
+     "src": "VINTAGE_VICE_CITY_PACK_VAPID_STANIER_04",
+     "in": 0.5,
+     "len": 1.6,
+     "layout": "full",
+     "x": 0.5,
+     "still": true,
+     "zoom": 1.1
+    }
+   ]
+  },
+  {
+   "label": "'55 STANIER & GARAGE",
+   "at": 5.45,
+   "shots": [
+    {
+     "src": "VINTAGE_VICE_CITY_PACK_VAPID_STANIER_03",
+     "in": 0.5,
+     "len": 1.5,
+     "layout": "full",
+     "x": 0.45,
+     "still": true,
+     "zoom": 1.12
+    },
+    {
+     "src": "VINTAGE_VICE_CITY_PACK_VAPID_STANIER_01",
+     "in": 0.5,
+     "len": 2.8,
+     "layout": "full",
+     "x": 0.2,
+     "still": true,
+     "zoom": 1.08,
+     "pan": [
+      0.15,
+      0.65
+     ]
+    }
+   ]
+  },
+  {
+   "label": "RETRO LOOKS",
+   "at": 9.7,
+   "shots": [
+    {
+     "src": "VINTAGE_VICE_CITY_PACK_EXCLUSIVE_LOOKS_02",
+     "in": 0.5,
+     "len": 1.0,
+     "layout": "full",
+     "x": 0.5,
+     "still": true,
+     "zoom": 1.06
+    },
+    {
+     "src": "VINTAGE_VICE_CITY_PACK_EXCLUSIVE_LOOKS_05",
+     "in": 0.5,
+     "len": 0.9,
+     "layout": "full",
+     "x": 0.5,
+     "still": true,
+     "zoom": 1.06
+    },
+    {
+     "src": "VINTAGE_VICE_CITY_PACK_EXCLUSIVE_LOOKS_04",
+     "in": 0.5,
+     "len": 1.0,
+     "layout": "full",
+     "x": 0.5,
+     "still": true,
+     "zoom": 1.06
+    }
+   ]
+  },
+  {
+   "label": "WEAPON PATTERN",
+   "at": 12.5,
+   "shots": [
+    {
+     "src": "VINTAGE_VICE_CITY_WEAPON_PATTERN_01",
+     "in": 0.5,
+     "len": 2.4,
+     "layout": "full",
+     "x": 0.6,
+     "still": true,
+     "zoom": 1.1
+    }
+   ]
+  },
+  {
+   "label": "GTA PLUS \u00b7 DIGITAL",
+   "at": 14.75,
+   "shots": [
+    {
+     "src": "GTA_PLUS",
+     "in": 0.5,
+     "len": 1.5,
+     "layout": "full",
+     "x": 0.5,
+     "still": true,
+     "zoom": 1.06
+    },
+    {
+     "src": "ext",
+     "in": 1119.4,
+     "len": 1.0,
+     "layout": "full",
+     "x": 0.5
+    },
+    {
+     "src": "t1",
+     "in": 32.65,
+     "len": 0.9,
+     "layout": "full",
+     "x": 0.4
+    }
+   ]
+  },
+  {
+   "label": "",
+   "at": 17.95,
+   "shots": [
+    {
+     "src": "t1",
+     "in": 27.6,
+     "len": 1.4,
+     "layout": "full",
+     "x": 0.5
+    },
+    {
+     "src": "launch",
+     "in": 26.6,
+     "len": 1.3,
+     "layout": "full",
+     "x": 0.5
+    },
+    {
+     "src": "t2",
+     "in": 45.5,
+     "len": 1.1,
+     "layout": "full",
+     "x": 0.5
+    }
+   ]
+  },
+  {
+   "label": "",
+   "at": 21.5,
+   "shots": [
+    {
+     "src": "t1",
+     "in": 35.75,
+     "len": 1.5,
+     "layout": "full",
+     "x": 0.55
+    },
+    {
+     "src": "launch",
+     "in": 55.3,
+     "len": 1.4,
+     "layout": "full",
+     "x": 0.35
+    }
+   ]
+  }
+ ]
+}

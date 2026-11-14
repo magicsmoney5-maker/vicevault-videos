@@ -1,0 +1,204 @@
+{
+ "id": "2026-11-14-0017",
+ "out": "~/vvv/out/2026-11-14-0017-record-v3.mp4",
+ "voice": "~/vvv/vo/0017c.mp3",
+ "music": "~/vvv/THEME-breaking-news.mp3",
+ "music_gain_db": -17,
+ "caption_size": 116,
+ "credit": "Footage: Rockstar Games \u2013 GTA VI trailers & An Extended Look",
+ "hook": {
+  "title": "RECORD BROKEN",
+  "tag": "TWICE \u00b7 BEFORE LAUNCH"
+ },
+ "end": {
+  "text": "EARNED THE HYPE\\NOR TOO EARLY?",
+  "tag": "TELL US IN THE COMMENTS"
+ },
+ "highlights": [
+  "RECORDS",
+  "HISTORY",
+  "MICROSOFT",
+  "EXCESS",
+  "HYPE"
+ ],
+ "fixups": {
+  "GTA (6|VI|SIX)'S": "GTA 6'S",
+  "GTA (6|VI|SIX)\\b": "GTA 6",
+  "\\bVI\\b": "6",
+  "Xbox's": "XBOX'S"
+ },
+ "cards": [
+  {
+   "at": 5.3,
+   "end": 9.0,
+   "text": "#1",
+   "sub": "MOST PRE-ORDERED EVER",
+   "size": 230
+  },
+  {
+   "at": 10.2,
+   "end": 12.8,
+   "text": "#1",
+   "sub": "MOST PRE-ORDERED EVER",
+   "size": 230
+  },
+  {
+   "at": 15.0,
+   "end": 17.4,
+   "text": "FAR IN EXCESS",
+   "sub": "OF EXPECTATIONS \u00b7 TAKE-TWO",
+   "size": 130
+  }
+ ],
+ "scenes": [
+  {
+   "label": "",
+   "at": 0,
+   "shots": [
+    {
+     "src": "launch",
+     "in": 55.3,
+     "len": 1.7,
+     "layout": "full",
+     "x": 0.35
+    },
+    {
+     "src": "ext",
+     "in": 1130.6,
+     "len": 1.5,
+     "layout": "full",
+     "x": 0.5
+    },
+    {
+     "src": "t1",
+     "in": 23.35,
+     "len": 1.4,
+     "layout": "full",
+     "x": 0.5
+    }
+   ]
+  },
+  {
+   "label": "PLAYSTATION STORE",
+   "at": 4.5,
+   "shots": [
+    {
+     "src": "t1",
+     "in": 35.75,
+     "len": 1.6,
+     "layout": "full",
+     "x": 0.55
+    },
+    {
+     "src": "t2",
+     "in": 6.6,
+     "len": 1.4,
+     "layout": "full",
+     "x": 0.5
+    },
+    {
+     "src": "t1",
+     "in": 11.2,
+     "len": 1.6,
+     "layout": "full",
+     "x": 0.5
+    }
+   ]
+  },
+  {
+   "label": "MICROSOFT STORE",
+   "at": 9.1,
+   "shots": [
+    {
+     "src": "ext",
+     "in": 1134.0,
+     "len": 1.6,
+     "layout": "full",
+     "x": 0.4
+    },
+    {
+     "src": "t2",
+     "in": 34.7,
+     "len": 1.4,
+     "layout": "full",
+     "x": 0.5
+    },
+    {
+     "src": "launch",
+     "in": 47.2,
+     "len": 0.9,
+     "layout": "full",
+     "x": 0.45
+    }
+   ]
+  },
+  {
+   "label": "TAKE-TWO",
+   "at": 12.85,
+   "shots": [
+    {
+     "src": "pre",
+     "in": 11.25,
+     "len": 1.3,
+     "layout": "full",
+     "x": 0.5
+    },
+    {
+     "src": "pre",
+     "in": 5.3,
+     "len": 1.2,
+     "layout": "full",
+     "x": 0.45
+    },
+    {
+     "src": "ext",
+     "in": 1071.7,
+     "len": 1.2,
+     "layout": "full",
+     "x": 0.45
+    },
+    {
+     "src": "t1",
+     "in": 27.6,
+     "len": 1.1,
+     "layout": "full",
+     "x": 0.5
+    }
+   ]
+  },
+  {
+   "label": "",
+   "at": 17.5,
+   "shots": [
+    {
+     "src": "t1",
+     "in": 3.1,
+     "len": 1.8,
+     "layout": "full",
+     "x": 0.5
+    },
+    {
+     "src": "t2",
+     "in": 140.2,
+     "len": 1.5,
+     "layout": "full",
+     "x": 0.5
+    },
+    {
+     "src": "t1",
+     "in": 20.3,
+     "len": 1.6,
+     "layout": "full",
+     "x": 0.55
+    },
+    {
+     "src": "launch",
+     "in": 49.0,
+     "len": 1.5,
+     "layout": "full",
+     "x": 0.45
+    }
+   ]
+  }
+ ]
+}

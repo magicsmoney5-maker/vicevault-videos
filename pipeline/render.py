@@ -11,6 +11,8 @@ import json, os, re, subprocess, sys, math
 FOOT = os.environ.get("VVC_FOOT", os.path.expanduser("~/foot"))
 W, H, FPS = 1080, 1920, 30
 YEL = "&H001FD2FF"  # #FFD21F in ASS BGR
+# letterboxed sources: trim the baked-in black bars before scaling
+PRECROP = {"t2": "crop=3840:1728:0:216,", "launch": "crop=3840:1920:0:120,"}
 
 
 def run(cmd):
@@ -124,14 +126,15 @@ def render_scene(i, sc, length, work):
         need = min(s["len"], length * speed) if len(shots) == 1 else s["len"]
         x = s.get("x", sc.get("x", 0.5))
         layout = s.get("layout", sc.get("layout", "full"))
+        pc = PRECROP.get(s["src"], "")
         if layout == "full":
-            vf = (f"scale=-2:{H}:flags=bicubic,crop={W}:{H}:(iw-{W})*{x}:0,fps={FPS},setsar=1")
+            vf = (f"{pc}scale=-2:{H}:flags=bicubic,crop={W}:{H}:(iw-{W})*{x}:0,fps={FPS},setsar=1")
         else:
-            vf = (f"split[a][b];[a]scale=270:480:force_original_aspect_ratio=increase,crop=270:480,boxblur=14:2,eq=brightness=-0.12:saturation=1.1,scale={W}:{H},setsar=1[bg];"
+            vf = (f"{pc}split[a][b];[a]scale=270:480:force_original_aspect_ratio=increase,crop=270:480,boxblur=14:2,eq=brightness=-0.12:saturation=1.1,scale={W}:{H},setsar=1[bg];"
                   f"[b]scale={W}:-2:flags=bicubic[fg];[bg][fg]overlay=0:{sc.get('wy', 560)},fps={FPS},setsar=1")
         if s.get("still"):
             png = f"{work}/s{i:02d}_{j}.png"
-            run(["ffmpeg", "-v", "error", "-y", "-ss", str(s["in"]), "-i", src, "-frames:v", "1", png])
+            run(["ffmpeg", "-v", "error", "-y", "-ss", str(s["in"]), "-i", src, "-frames:v", "1"] + (["-vf", pc.rstrip(",")] if pc else []) + [png])
             n = int(round(need * FPS)); z = s.get("zoom", 1.12)
             base = (f"scale=-2:{H}:flags=bicubic,crop={W}:{H}:(iw-{W})*{x}:0" if layout == "full" else f"scale={W}:-2")
             vf2 = (f"{base},scale={W*2}:-2,zoompan=z='1+({z}-1)*on/{n}':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d={n}:s={W}x{H if layout == 'full' else 608}:fps={FPS}")

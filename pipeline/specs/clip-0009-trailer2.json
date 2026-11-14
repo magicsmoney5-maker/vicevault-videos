@@ -1,0 +1,18 @@
+{
+ "id": "2026-11-14-0009", "out": "/home/claude/studio2/out/2026-11-14-0009-trailer2-hidden-city.mp4",
+ "voice": "/home/claude/vo/B1.mp3", "music": "/home/claude/vo/THEME-standard.mp3",
+ "credit": "Footage: Rockstar Games – GTA VI Trailer 2",
+ "hook": {"title": "A WHOLE HIDDEN CITY", "tag": "GTA 6 · TRAILER 2"},
+ "end": {"text": "WHERE ARE YOU\\NHEADING FIRST?", "tag": "TELL US IN THE COMMENTS"},
+ "highlights": ["CITY","SIGNS","VCI","AIRPORT","PEACOCK","JET","GYM","SAND","ATM","LOTTERY","MILLIONAIRE","MURALS","MANATEES","TEAM"],
+ "fixups": {"GTA (6|VI|SIX)'S": "GTA 6'S", "\\bmanatees\\b": "Manatees"},
+ "scenes": [
+  {"label": "", "at": 0, "shots": [{"src":"t2","in":5.6,"len":2.5,"layout":"full","x":0.5},{"src":"t2","in":8.15,"len":1.6,"layout":"full","x":0.45}]},
+  {"label": "1 · ROAD SIGNS", "at": 4.50, "shots": [{"src":"t2","in":34.62,"len":3.7,"layout":"window"},{"src":"t2","in":35.9,"len":2.4,"layout":"full","x":0.75}]},
+  {"label": "2 · BEACH GYM", "at": 12.42, "shots": [{"src":"t2","in":38.4,"len":3.15,"layout":"full","x":0.5}]},
+  {"label": "3 · CORNER SHOP", "at": 15.60, "shots": [{"src":"t2","in":41.62,"len":3.6,"layout":"window"},{"src":"t2","in":41.9,"len":2.7,"layout":"full","x":0.0}]},
+  {"label": "4 · MURAL STREET", "at": 22.16, "shots": [{"src":"t2","in":45.3,"len":3.1,"layout":"window"}]},
+  {"label": "5 · MANATEES", "at": 25.24, "shots": [{"src":"t2","in":118.87,"len":0.7,"layout":"full","x":0.75},{"src":"t2","in":119.3,"len":4.4,"layout":"full","x":0.78,"still":true,"zoom":1.12}]},
+  {"label": "", "at": 31.06, "shots": [{"src":"t2","in":140.0,"len":1.5,"layout":"full","x":0.6}]}
+ ]
+}

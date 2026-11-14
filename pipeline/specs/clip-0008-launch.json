@@ -1,0 +1,195 @@
+{
+ "id": "2026-11-14-0008",
+ "out": "/home/claude/studio2/out/2026-11-14-0008-launch-trailer-details.mp4",
+ "voice": "/home/claude/vo/A1.mp3",
+ "music": "/home/claude/vo/THEME-standard.mp3",
+ "credit": "Footage: Rockstar Games – GTA VI Launch Trailer",
+ "hook": {
+  "title": "5 DETAILS YOU MISSED",
+  "tag": "GTA 6 · LAUNCH TRAILER"
+ },
+ "end": {
+  "text": "WHICH ONE DID\\NYOU CATCH?",
+  "tag": "TELL US IN THE COMMENTS"
+ },
+ "highlights": [
+  "FIVE",
+  "KEYS",
+  "HERON",
+  "SHARK",
+  "MARINA",
+  "RACKS",
+  "WILDLIFE",
+  "IGUANA",
+  "DIRT",
+  "BIKE",
+  "TRAIN",
+  "BIPLANE",
+  "PINK",
+  "SMOKE"
+ ],
+ "fixups": {
+  "GTA (6|VI|SIX)'S": "GTA 6'S",
+  "\\band iguana": "an iguana"
+ },
+ "scenes": [
+  {
+   "label": "",
+   "at": 0,
+   "shots": [
+    {
+     "src": "launch",
+     "in": 17.9,
+     "len": 1.2,
+     "layout": "full",
+     "x": 0.5
+    },
+    {
+     "src": "launch",
+     "in": 26.4,
+     "len": 1.4,
+     "layout": "full",
+     "x": 0.45
+    },
+    {
+     "src": "launch",
+     "in": 39.0,
+     "len": 1.4,
+     "layout": "full",
+     "x": 0.5
+    }
+   ]
+  },
+  {
+   "label": "1 · THE KEYS",
+   "at": 5.68,
+   "shots": [
+    {
+     "src": "launch",
+     "in": 2.7,
+     "len": 2.3,
+     "layout": "window"
+    },
+    {
+     "src": "launch",
+     "in": 14.25,
+     "len": 0.9,
+     "layout": "full",
+     "x": 0.4
+    },
+    {
+     "src": "launch",
+     "in": 7.2,
+     "len": 1.6,
+     "layout": "full",
+     "x": 0.55
+    }
+   ]
+  },
+  {
+   "label": "2 · THE MARINA",
+   "at": 11.8,
+   "shots": [
+    {
+     "src": "launch",
+     "in": 5.0,
+     "len": 2.0,
+     "layout": "window"
+    },
+    {
+     "src": "launch",
+     "in": 9.97,
+     "len": 1.9,
+     "layout": "full",
+     "x": 0.5
+    },
+    {
+     "src": "launch",
+     "in": 11.95,
+     "len": 2.2,
+     "layout": "full",
+     "x": 0.6
+    }
+   ]
+  },
+  {
+   "label": "3 · IGUANA",
+   "at": 17.24,
+   "shots": [
+    {
+     "src": "launch",
+     "in": 21.2,
+     "len": 1.7,
+     "layout": "window"
+    },
+    {
+     "src": "launch",
+     "in": 21.2,
+     "len": 1.7,
+     "layout": "full",
+     "x": 0.42
+    },
+    {
+     "src": "launch",
+     "in": 21.5,
+     "len": 2.0,
+     "layout": "full",
+     "x": 0.42,
+     "still": true,
+     "zoom": 1.12
+    }
+   ]
+  },
+  {
+   "label": "4 · DIRT BIKE",
+   "at": 23.42,
+   "shots": [
+    {
+     "src": "launch",
+     "in": 49.0,
+     "len": 2.0,
+     "layout": "full",
+     "x": 0.45
+    },
+    {
+     "src": "launch",
+     "in": 49.0,
+     "len": 1.6,
+     "layout": "window"
+    }
+   ]
+  },
+  {
+   "label": "5 · BIPLANE",
+   "at": 26.88,
+   "shots": [
+    {
+     "src": "launch",
+     "in": 55.2,
+     "len": 1.85,
+     "layout": "window"
+    },
+    {
+     "src": "launch",
+     "in": 55.2,
+     "len": 1.85,
+     "layout": "full",
+     "x": 0.55
+    }
+   ]
+  },
+  {
+   "label": "",
+   "at": 31.24,
+   "shots": [
+    {
+     "src": "launch",
+     "in": 40.45,
+     "len": 2.2,
+     "layout": "full",
+     "x": 0.5
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,168 @@
+{
+ "id": "2026-11-14-0012",
+ "out": "/home/claude/studio2/out/2026-11-14-0012-a-day-in-vice-city.mp4",
+ "voice": "/home/claude/vo/E1.mp3",
+ "music": "/home/claude/vo/THEME-standard.mp3",
+ "credit": "Footage: Rockstar Games – GTA VI: An Extended Look",
+ "hook": {
+  "title": "A DAY IN VICE CITY",
+  "tag": "GTA 6 · EXTENDED LOOK"
+ },
+ "end": {
+  "text": "HOW WOULD YOU SPEND\\NYOUR FIRST DAY?",
+  "tag": "TELL US IN THE COMMENTS"
+ },
+ "highlights": [
+  "DAY",
+  "GYM",
+  "HOOPS",
+  "DOCK",
+  "SEA",
+  "BEACH",
+  "LOUNGER",
+  "MOTORBIKE",
+  "CLUB",
+  "NIGHT",
+  "ROOF"
+ ],
+ "fixups": {},
+ "scenes": [
+  {
+   "label": "",
+   "at": 0,
+   "shots": [
+    {
+     "src": "ext",
+     "in": 1127.6,
+     "len": 1.8,
+     "layout": "full",
+     "x": 0.5
+    },
+    {
+     "src": "ext",
+     "in": 735.5,
+     "len": 1.8,
+     "layout": "full",
+     "x": 0.5
+    },
+    {
+     "src": "ext",
+     "in": 1127.6,
+     "len": 1.8,
+     "layout": "window"
+    }
+   ]
+  },
+  {
+   "label": "MORNING · GYM",
+   "at": 5.08,
+   "shots": [
+    {
+     "src": "ext",
+     "in": 1038.75,
+     "len": 1.6,
+     "layout": "full",
+     "x": 0.5
+    }
+   ]
+  },
+  {
+   "label": "MORNING · HOOPS",
+   "at": 6.6,
+   "shots": [
+    {
+     "src": "ext",
+     "in": 1033.05,
+     "len": 1.9,
+     "layout": "full",
+     "x": 0.4
+    }
+   ]
+  },
+  {
+   "label": "MIDDAY · THE DOCK",
+   "at": 8.4,
+   "shots": [
+    {
+     "src": "ext",
+     "in": 1042.25,
+     "len": 2.7,
+     "layout": "full",
+     "x": 0.5
+    }
+   ]
+  },
+  {
+   "label": "MIDDAY · BEACH",
+   "at": 11.4,
+   "shots": [
+    {
+     "src": "ext",
+     "in": 1108.5,
+     "len": 2.5,
+     "layout": "full",
+     "x": 0.45
+    }
+   ]
+  },
+  {
+   "label": "AFTERNOON · MOTORBIKE",
+   "at": 13.78,
+   "shots": [
+    {
+     "src": "ext",
+     "in": 1083.4,
+     "len": 4.2,
+     "layout": "full",
+     "x": 0.5
+    }
+   ]
+  },
+  {
+   "label": "NIGHT · CLUB",
+   "at": 17.94,
+   "shots": [
+    {
+     "src": "ext",
+     "in": 1052.0,
+     "len": 1.3,
+     "layout": "full",
+     "x": 0.5
+    },
+    {
+     "src": "ext",
+     "in": 1059.0,
+     "len": 1.3,
+     "layout": "full",
+     "x": 0.5
+    }
+   ]
+  },
+  {
+   "label": "NIGHT · CRUISE",
+   "at": 20.48,
+   "shots": [
+    {
+     "src": "ext",
+     "in": 1122.45,
+     "len": 3.0,
+     "layout": "full",
+     "x": 0.5
+    }
+   ]
+  },
+  {
+   "label": "",
+   "at": 23.56,
+   "shots": [
+    {
+     "src": "ext",
+     "in": 1045.05,
+     "len": 1.85,
+     "layout": "full",
+     "x": 0.5
+    }
+   ]
+  }
+ ]
+}

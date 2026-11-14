@@ -87,7 +87,7 @@ def build_ass(spec, words, total, scene_times):
         "[Script Info]", "ScriptType: v4.00+", f"PlayResX: {W}", f"PlayResY: {H}", "WrapStyle: 0", "",
         "[V4+ Styles]",
         "Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding",
-        "Style: Cap,Anton,104,&H00FFFFFF,&H00FFFFFF,&H00000000,&H96000000,0,0,0,0,100,100,1,0,1,5,3,5,60,60,0,1",
+        f"Style: Cap,Anton,{spec.get('caption_size', 104)},&H00FFFFFF,&H00FFFFFF,&H00000000,&H96000000,0,0,0,0,100,100,1,0,1,5,3,5,60,60,0,1",
         "Style: Label,Anton,70,&H00FFFFFF,&H00FFFFFF,&H00000000,&H96000000,0,0,0,0,100,100,1,0,1,4,2,5,60,60,0,1",
         "Style: Credit,Inter,26,&H22FFFFFF,&H00FFFFFF,&H00000000,&H96000000,0,0,0,0,100,100,0,0,1,2,1,5,60,60,0,1",
         "Style: Hook,Anton,118,&H00FFFFFF,&H00FFFFFF,&H00000000,&H96000000,0,0,0,0,100,100,1,0,1,6,4,5,60,60,0,1",
@@ -109,6 +109,12 @@ def build_ass(spec, words, total, scene_times):
     end_start = scene_times[-1]["start"]
     ev.append(f"Dialogue: 2,{ass_time(end_start)},{ass_time(total)},Hook,,0,0,0,,{{\\pos(540,830)\\fs96\\fad(150,0)}}{esc_ass(en['text'])}")
     ev.append(f"Dialogue: 2,{ass_time(end_start)},{ass_time(total)},Tag,,0,0,0,,{{\\pos(540,1012)\\fad(150,0)}}{esc_ass(en['tag'])}")
+    for cd in spec.get("cards", []):  # big stat cards: {"at","end","text","sub"} in voice seconds
+        a0, b0 = cd["at"] + spec.get("lead", 0.25), cd["end"] + spec.get("lead", 0.25)
+        fs = cd.get("size", 150)
+        ev.append(f"Dialogue: 3,{ass_time(a0)},{ass_time(b0)},Hook,,0,0,0,,{{\\pos(540,{cd.get('y', 840)})\\fs{fs}\\fscx70\\fscy70\\t(0,180,\\fscx100\\fscy100)\\fad(80,120)}}{esc_ass(cd['text'])}")
+        if cd.get("sub"):
+            ev.append(f"Dialogue: 3,{ass_time(a0)},{ass_time(b0)},Tag,,0,0,0,,{{\\pos(540,{cd.get('y', 840) + 150})\\fad(80,120)}}{esc_ass(cd['sub'])}")
     for (a, b, text) in chunks(words, spec.get("fixups", {})):
         parts = []
         for tok in text.split():

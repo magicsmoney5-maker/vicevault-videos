@@ -54,6 +54,13 @@ def esc_ass(s):
 def chunks(words, fixups):
     """Group words into caption chunks of up to 3 words, breaking after punctuation."""
     out, cur = [], []
+    merged = []
+    for w in words:  # glue split tokens ("pre" + "-loading", "79" + ".99") back onto the previous word
+        if merged and re.match(r"^[-.]\w", w[2]):
+            merged[-1] = [merged[-1][0], w[1], merged[-1][2] + w[2]]
+        else:
+            merged.append(list(w))
+    words = merged
     for w in words:
         cur.append(w)
         end_punct = re.search(r"[.,?!:;]$", w[2])
@@ -66,7 +73,7 @@ def chunks(words, fixups):
         text = " ".join(x[2] for x in c)
         for a, b in fixups.items():
             text = re.sub(a, b, text, flags=re.I)
-        text = re.sub(r"[.,!;:]", "", text).strip().upper()
+        text = re.sub(r"[.,!;:](?=\s|$)", "", text).strip().upper()  # keep inner dots such as $79.99
         start = c[0][0]
         nxt = out[i + 1][0][0] if i + 1 < len(out) else c[-1][1] + 0.4
         end = min(nxt, c[-1][1] + 0.6)

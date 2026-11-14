@@ -1,0 +1,242 @@
+{
+ "id": "2026-11-14-0018",
+ "out": "~/vvv/out/2026-11-14-0018-buy-before-nov-20.mp4",
+ "voice": "~/vvv/vo/0018.mp3",
+ "music": "~/vvv/THEME-standard.mp3",
+ "music_gain_db": -18,
+ "credit": "Footage: Rockstar Games \u2013 GTA VI trailers & An Extended Look \u00b7 items not shown",
+ "hook": {
+  "title": "FREE BONUS PACK",
+  "tag": "GTA 6 \u00b7 BUY BEFORE NOV 20"
+ },
+ "end": {
+  "text": "ARE YOU BUYING\\NBEFORE THE DEADLINE?",
+  "tag": "TELL US IN THE COMMENTS"
+ },
+ "highlights": [
+  "20TH",
+  "FREE",
+  "VINTAGE",
+  "VICE",
+  "CITY",
+  "PACK",
+  "CLASSIC",
+  "GARAGE",
+  "RETRO",
+  "MONTH",
+  "RENEWS",
+  "BOXED",
+  "DEADLINE",
+  "PLUS"
+ ],
+ "fixups": {
+  "GTA (6|VI|SIX)'S": "GTA 6'S",
+  "GTA (6|VI|SIX)\\b": "GTA 6",
+  "\\bVI\\b": "6",
+  "\\bstanyer\\b": "Stanier"
+ },
+ "scenes": [
+  {
+   "label": "",
+   "at": 0,
+   "shots": [
+    {
+     "src": "t1",
+     "in": 27.6,
+     "len": 1.4,
+     "layout": "full",
+     "x": 0.5
+    },
+    {
+     "src": "t2",
+     "in": 126.0,
+     "len": 1.6,
+     "layout": "full",
+     "x": 0.5
+    },
+    {
+     "src": "t2",
+     "in": 45.5,
+     "len": 1.8,
+     "layout": "full",
+     "x": 0.5
+    }
+   ]
+  },
+  {
+   "label": "VINTAGE VICE CITY PACK",
+   "at": 4.5,
+   "wy": 620,
+   "shots": [
+    {
+     "src": "t1",
+     "in": 39.85,
+     "len": 1.6,
+     "layout": "window",
+     "x": 0.5
+    },
+    {
+     "src": "t1",
+     "in": 3.1,
+     "len": 1.7,
+     "layout": "full",
+     "x": 0.5
+    }
+   ]
+  },
+  {
+   "label": "A CLASSIC CAR",
+   "at": 7.65,
+   "shots": [
+    {
+     "src": "ext",
+     "in": 517.5,
+     "len": 2.0,
+     "layout": "full",
+     "x": 0.55
+    },
+    {
+     "src": "ext",
+     "in": 1071.7,
+     "len": 1.7,
+     "layout": "full",
+     "x": 0.45
+    }
+   ]
+  },
+  {
+   "label": "YOUR OWN GARAGE",
+   "at": 11.2,
+   "shots": [
+    {
+     "src": "ext",
+     "in": 1092.5,
+     "len": 2.2,
+     "layout": "full",
+     "x": 0.5
+    }
+   ]
+  },
+  {
+   "label": "RETRO LOOKS",
+   "at": 13.3,
+   "shots": [
+    {
+     "src": "launch",
+     "in": 40.5,
+     "len": 1.85,
+     "layout": "full",
+     "x": 0.45
+    },
+    {
+     "src": "launch",
+     "in": 26.6,
+     "len": 1.9,
+     "layout": "full",
+     "x": 0.5
+    }
+   ]
+  },
+  {
+   "label": "GTA PLUS \u00b7 1 MONTH FREE",
+   "at": 17.0,
+   "shots": [
+    {
+     "src": "ext",
+     "in": 1119.4,
+     "len": 1.8,
+     "layout": "full",
+     "x": 0.5
+    },
+    {
+     "src": "t1",
+     "in": 32.65,
+     "len": 1.45,
+     "layout": "full",
+     "x": 0.4
+    },
+    {
+     "src": "pre",
+     "in": 18.65,
+     "len": 1.3,
+     "layout": "full",
+     "x": 0.5
+    },
+    {
+     "src": "ext",
+     "in": 595.0,
+     "len": 1.3,
+     "layout": "full",
+     "x": 0.45
+    }
+   ]
+  },
+  {
+   "label": "RENEWS AFTER MONTH 1",
+   "at": 22.5,
+   "shots": [
+    {
+     "src": "ext",
+     "in": 655.0,
+     "len": 1.4,
+     "layout": "full",
+     "x": 0.45
+    },
+    {
+     "src": "ext",
+     "in": 607.5,
+     "len": 1.6,
+     "layout": "full",
+     "x": 0.55
+    },
+    {
+     "src": "t1",
+     "in": 33.3,
+     "len": 0.8,
+     "layout": "full",
+     "x": 0.6
+    }
+   ]
+  },
+  {
+   "label": "BOXED \u00b7 WHILE STOCKS LAST",
+   "at": 26.1,
+   "shots": [
+    {
+     "src": "t2",
+     "in": 41.7,
+     "len": 1.2,
+     "layout": "full",
+     "x": 0.5
+    },
+    {
+     "src": "t2",
+     "in": 43.0,
+     "len": 1.3,
+     "layout": "full",
+     "x": 0.5
+    }
+   ]
+  },
+  {
+   "label": "",
+   "at": 28.45,
+   "shots": [
+    {
+     "src": "launch",
+     "in": 55.3,
+     "len": 1.7,
+     "layout": "full",
+     "x": 0.35
+    },
+    {
+     "src": "t1",
+     "in": 35.75,
+     "len": 1.7,
+     "layout": "full",
+     "x": 0.55
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,244 @@
+{
+ "id": "2026-11-16-0020",
+ "out": "/root/vvv/out/2026-11-16-0020-day-one-ways-to-play.mp4",
+ "voice": "/root/vvc/vo/0020.mp3",
+ "music": "/root/vvv/music/THEME-breaking-news.mp3",
+ "music_gain_db": -17,
+ "credit": "Footage: Rockstar Games \u2013 GTA VI trailers & An Extended Look",
+ "hook": {
+  "title": "ON DAY ONE",
+  "tag": "GTA 6 \u00b7 CONFIRMED"
+ },
+ "end": {
+  "text": "PRO UPGRADE OR\\NCLOUD STREAMING?",
+  "tag": "TELL US IN THE COMMENTS"
+ },
+ "highlights": [
+  "THREE",
+  "DAY",
+  "PS5",
+  "PRO",
+  "PSSR",
+  "SHADOWS",
+  "30",
+  "XBOX",
+  "ONE",
+  "CLOUD",
+  "REMOTE",
+  "TV"
+ ],
+ "fixups": {
+  "GTA (6|VI|SIX)'S": "GTA 6'S",
+  "GTA (6|VI|SIX)\\b": "GTA 6",
+  "\\bVI\\b": "6",
+  "TRAILER ONE": "TRAILER 1",
+  "\\bTHIRTY\\b": "30",
+  "\\bP S S R\\b": "PSSR"
+ },
+ "cards": [
+  {
+   "at": 6.48,
+   "end": 10.4,
+   "text": "PS5 PRO",
+   "sub": "PSSR + RAY-TRACED SHADOWS"
+  },
+  {
+   "at": 10.48,
+   "end": 13.9,
+   "text": "30 FPS",
+   "sub": "TARGET ON EVERY CONSOLE"
+  },
+  {
+   "at": 16.8,
+   "end": 20.5,
+   "text": "XBOX ONE",
+   "sub": "VIA XBOX CLOUD GAMING"
+  },
+  {
+   "at": 21.0,
+   "end": 24.5,
+   "text": "REMOTE PLAY",
+   "sub": "PLAY AWAY FROM THE TV",
+   "size": 130
+  }
+ ],
+ "scenes": [
+  {
+   "label": "",
+   "at": 0,
+   "shots": [
+    {
+     "src": "ext",
+     "in": 754.2,
+     "len": 1.4,
+     "layout": "full",
+     "x": 0.6
+    },
+    {
+     "src": "ext",
+     "in": 746.4,
+     "len": 1.2,
+     "layout": "full",
+     "x": 0.55
+    },
+    {
+     "src": "t2",
+     "in": 142.0,
+     "len": 1.3,
+     "layout": "full",
+     "x": 0.5
+    }
+   ]
+  },
+  {
+   "label": "#1 \u00b7 PS5 PRO",
+   "at": 3.48,
+   "shots": [
+    {
+     "src": "ext",
+     "in": 756,
+     "len": 1.8,
+     "layout": "full",
+     "x": 0.6
+    },
+    {
+     "src": "ext",
+     "in": 760.5,
+     "len": 1.5,
+     "layout": "full",
+     "x": 0.6
+    },
+    {
+     "src": "ext",
+     "in": 764,
+     "len": 1.6,
+     "layout": "full",
+     "x": 0.6
+    },
+    {
+     "src": "ext",
+     "in": 768.5,
+     "len": 1.5,
+     "layout": "full",
+     "x": 0.6
+    },
+    {
+     "src": "ext",
+     "in": 774,
+     "len": 1.6,
+     "layout": "full",
+     "x": 0.6
+    },
+    {
+     "src": "ext",
+     "in": 778,
+     "len": 1.4,
+     "layout": "full",
+     "x": 0.6
+    },
+    {
+     "src": "ext",
+     "in": 782.5,
+     "len": 1.4,
+     "layout": "full",
+     "x": 0.6
+    }
+   ]
+  },
+  {
+   "label": "#2 \u00b7 XBOX ONE",
+   "at": 14.04,
+   "shots": [
+    {
+     "src": "ext",
+     "in": 984,
+     "len": 1.4,
+     "layout": "full",
+     "x": 0.5
+    },
+    {
+     "src": "ext",
+     "in": 987,
+     "len": 1.4,
+     "layout": "full",
+     "x": 0.5
+    },
+    {
+     "src": "ext",
+     "in": 990,
+     "len": 1.4,
+     "layout": "full",
+     "x": 0.5
+    },
+    {
+     "src": "ext",
+     "in": 993.5,
+     "len": 1.2,
+     "layout": "full",
+     "x": 0.5
+    },
+    {
+     "src": "ext",
+     "in": 996,
+     "len": 1.4,
+     "layout": "full",
+     "x": 0.5
+    }
+   ]
+  },
+  {
+   "label": "#3 \u00b7 REMOTE PLAY",
+   "at": 20.62,
+   "shots": [
+    {
+     "src": "launch",
+     "in": 67.2,
+     "len": 1.4,
+     "layout": "full",
+     "x": 0.6
+    },
+    {
+     "src": "ext",
+     "in": 1018,
+     "len": 1.4,
+     "layout": "full",
+     "x": 0.5
+    },
+    {
+     "src": "launch",
+     "in": 47.8,
+     "len": 1.3,
+     "layout": "full",
+     "x": 0.5
+    }
+   ]
+  },
+  {
+   "label": "",
+   "at": 24.68,
+   "shots": [
+    {
+     "src": "t2",
+     "in": 142.4,
+     "len": 1.2,
+     "layout": "full",
+     "x": 0.5
+    },
+    {
+     "src": "ext",
+     "in": 998,
+     "len": 1.6,
+     "layout": "full",
+     "x": 0.5
+    },
+    {
+     "src": "ext",
+     "in": 935,
+     "len": 1.2,
+     "layout": "full",
+     "x": 0.6
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,224 @@
+{
+ "id": "2026-11-16-0021",
+ "out": "/root/vvv/out/2026-11-16-0021-crowds-alive.mp4",
+ "voice": "/root/vvc/vo/0021.mp3",
+ "music": "/root/vvv/music/THEME-standard.mp3",
+ "music_gain_db": -18,
+ "credit": "Footage: Rockstar Games \u2013 GTA VI: An Extended Look & trailers",
+ "hook": {
+  "title": "CROWDS THAT LIVE",
+  "tag": "GTA 6 \u00b7 3 SIGNS"
+ },
+ "end": {
+  "text": "CROWDED BAR OR\\NEMPTY BEACH?",
+  "tag": "TELL US IN THE COMMENTS"
+ },
+ "highlights": [
+  "THREE",
+  "ALIVE",
+  "PHONE",
+  "FILM",
+  "SOCIAL",
+  "STREETS",
+  "LOCALS",
+  "MOTEL",
+  "BRUNCH",
+  "SUN",
+  "BARS",
+  "DANCE"
+ ],
+ "fixups": {
+  "GTA (6|VI|SIX)'S": "GTA 6'S",
+  "GTA (6|VI|SIX)\\b": "GTA 6",
+  "\\bVI\\b": "6",
+  "TRAILER ONE": "TRAILER 1",
+  "\\bTHIRTY\\b": "30",
+  "\\bP S S R\\b": "PSSR"
+ },
+ "scenes": [
+  {
+   "label": "",
+   "at": 0,
+   "shots": [
+    {
+     "src": "ext",
+     "in": 1097,
+     "len": 1.6,
+     "layout": "full",
+     "x": 0.7
+    },
+    {
+     "src": "t2",
+     "in": 99.8,
+     "len": 1.3,
+     "layout": "full",
+     "x": 0.5
+    },
+    {
+     "src": "ext",
+     "in": 649,
+     "len": 1.1,
+     "layout": "full",
+     "x": 0.5
+    }
+   ]
+  },
+  {
+   "label": "#1 \u00b7 EVERYONE FILMS",
+   "at": 4.06,
+   "shots": [
+    {
+     "src": "ext",
+     "in": 1093,
+     "len": 1.6,
+     "layout": "full",
+     "x": 0.4
+    },
+    {
+     "src": "ext",
+     "in": 1095.3,
+     "len": 1.6,
+     "layout": "full",
+     "x": 0.6
+    },
+    {
+     "src": "ext",
+     "in": 1099,
+     "len": 1.4,
+     "layout": "full",
+     "x": 0.65
+    },
+    {
+     "src": "ext",
+     "in": 1101.2,
+     "len": 1.5,
+     "layout": "full",
+     "x": 0.6
+    },
+    {
+     "src": "ext",
+     "in": 1104.2,
+     "len": 1.3,
+     "layout": "full",
+     "x": 0.75
+    },
+    {
+     "src": "t1",
+     "in": 57.4,
+     "len": 2.0,
+     "layout": "full",
+     "x": 0.52
+    }
+   ]
+  },
+  {
+   "label": "#2 \u00b7 STREET LIFE",
+   "at": 14.08,
+   "shots": [
+    {
+     "src": "ext",
+     "in": 545.2,
+     "len": 1.4,
+     "layout": "full",
+     "x": 0.65
+    },
+    {
+     "src": "ext",
+     "in": 555.5,
+     "len": 1.5,
+     "layout": "full",
+     "x": 0.45
+    },
+    {
+     "src": "ext",
+     "in": 558.5,
+     "len": 1.4,
+     "layout": "full",
+     "x": 0.6
+    },
+    {
+     "src": "ext",
+     "in": 646,
+     "len": 1.2,
+     "layout": "full",
+     "x": 0.35
+    },
+    {
+     "src": "ext",
+     "in": 650.5,
+     "len": 0.9,
+     "layout": "full",
+     "x": 0.5
+    },
+    {
+     "src": "ext",
+     "in": 666,
+     "len": 1.0,
+     "layout": "full",
+     "x": 0.5
+    }
+   ]
+  },
+  {
+   "label": "#3 \u00b7 NIGHT CROWDS",
+   "at": 21.42,
+   "shots": [
+    {
+     "src": "t2",
+     "in": 89.55,
+     "len": 0.85,
+     "layout": "full",
+     "x": 0.5
+    },
+    {
+     "src": "t2",
+     "in": 96.3,
+     "len": 1.3,
+     "layout": "full",
+     "x": 0.5
+    },
+    {
+     "src": "t2",
+     "in": 101.2,
+     "len": 1.4,
+     "layout": "full",
+     "x": 0.5
+    },
+    {
+     "src": "t2",
+     "in": 79.6,
+     "len": 1.3,
+     "layout": "full",
+     "x": 0.5
+    }
+   ]
+  },
+  {
+   "label": "",
+   "at": 26.32,
+   "shots": [
+    {
+     "src": "ext",
+     "in": 676,
+     "len": 1.6,
+     "layout": "full",
+     "x": 0.6
+    },
+    {
+     "src": "ext",
+     "in": 748.2,
+     "len": 1.4,
+     "layout": "full",
+     "x": 0.5
+    },
+    {
+     "src": "ext",
+     "in": 680,
+     "len": 1.2,
+     "layout": "full",
+     "x": 0.6
+    }
+   ]
+  }
+ ]
+}

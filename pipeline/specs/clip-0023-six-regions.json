@@ -1,0 +1,251 @@
+{
+ "id": "2026-11-17-0023",
+ "out": "/root/vvv/out/2026-11-17-0023-six-regions.mp4",
+ "voice": "/root/vvc/vo/0023.mp3",
+ "music": "/root/vvv/music/THEME-standard.mp3",
+ "music_gain_db": -18,
+ "credit": "Footage: Rockstar Games \u2013 GTA VI trailers & An Extended Look",
+ "hook": {
+  "title": "6 REGIONS",
+  "tag": "GTA 6 \u00b7 THE MAP"
+ },
+ "end": {
+  "text": "KEYS OR\\NWETLANDS?",
+  "tag": "TELL US IN THE COMMENTS"
+ },
+ "highlights": [
+  "SIX",
+  "6",
+  "REGIONS",
+  "KEYS",
+  "ISLANDS",
+  "GRASS",
+  "RIVERS",
+  "WETLANDS",
+  "SURFACE",
+  "THREE",
+  "KALAGA",
+  "GELLHORN",
+  "AMBROSIA"
+ ],
+ "fixups": {
+  "GTA (6|VI|SIX)'S": "GTA 6'S",
+  "GTA (6|VI|SIX)\\b": "GTA 6",
+  "\\bVI\\b": "6",
+  "\\bSIX REGIONS\\b": "6 REGIONS",
+  "GRASS RIVERS": "GRASSRIVERS"
+ },
+ "cards": [
+  {
+   "at": 14.6,
+   "end": 17.0,
+   "text": "+3 MORE",
+   "sub": "BARELY SHOWN SO FAR",
+   "size": 150
+  },
+  {
+   "at": 17.1,
+   "end": 20.5,
+   "text": "MOUNT KALAGA",
+   "sub": "NATIONAL LANDMARK \u00b7 NORTHERN BORDER",
+   "size": 120
+  },
+  {
+   "at": 20.6,
+   "end": 22.7,
+   "text": "PORT GELLHORN",
+   "sub": "THE FORGOTTEN COAST",
+   "size": 120
+  },
+  {
+   "at": 22.8,
+   "end": 25.9,
+   "text": "AMBROSIA",
+   "sub": "KEEPING THE STATE SWEET",
+   "size": 130
+  }
+ ],
+ "scenes": [
+  {
+   "label": "",
+   "at": 0,
+   "shots": [
+    {
+     "src": "ext",
+     "in": 1129.6,
+     "len": 1.5,
+     "layout": "full",
+     "x": 0.45
+    },
+    {
+     "src": "t1",
+     "in": 13.2,
+     "len": 1.5,
+     "layout": "full",
+     "x": 0.5
+    },
+    {
+     "src": "ext",
+     "in": 573.2,
+     "len": 1.7,
+     "layout": "full",
+     "x": 0.5
+    }
+   ]
+  },
+  {
+   "label": "#1 \u00b7 THE KEYS",
+   "at": 4.44,
+   "shots": [
+    {
+     "src": "launch",
+     "in": 3.6,
+     "len": 1.7,
+     "layout": "full",
+     "x": 0.55
+    },
+    {
+     "src": "t2",
+     "in": 7.0,
+     "len": 1.7,
+     "layout": "full",
+     "x": 0.5
+    },
+    {
+     "src": "t1",
+     "in": 35.8,
+     "len": 1.62,
+     "layout": "full",
+     "x": 0.6
+    }
+   ]
+  },
+  {
+   "label": "#2 \u00b7 GRASSRIVERS",
+   "at": 9.46,
+   "shots": [
+    {
+     "src": "ext",
+     "in": 1029.95,
+     "len": 1.75,
+     "layout": "full",
+     "x": 0.5
+    },
+    {
+     "src": "t1",
+     "in": 42.3,
+     "len": 1.45,
+     "layout": "full",
+     "x": 0.45
+    },
+    {
+     "src": "t1",
+     "in": 19.25,
+     "len": 1.86,
+     "layout": "full",
+     "x": 0.35
+    }
+   ]
+  },
+  {
+   "label": "",
+   "at": 14.52,
+   "shots": [
+    {
+     "src": "t2",
+     "in": 153.5,
+     "len": 1.3,
+     "layout": "full",
+     "x": 0.5
+    },
+    {
+     "src": "ext",
+     "in": 1129.0,
+     "len": 1.28,
+     "layout": "full",
+     "x": 0.6
+    }
+   ]
+  },
+  {
+   "label": "#3 \u00b7 MOUNT KALAGA",
+   "at": 17.1,
+   "shots": [
+    {
+     "src": "ext",
+     "in": 1115.3,
+     "len": 1.7,
+     "layout": "full",
+     "x": 0.5
+    },
+    {
+     "src": "ext",
+     "in": 1117.2,
+     "len": 1.78,
+     "layout": "full",
+     "x": 0.5
+    }
+   ]
+  },
+  {
+   "label": "#4 \u00b7 PORT GELLHORN",
+   "at": 20.58,
+   "shots": [
+    {
+     "src": "t1",
+     "in": 70.4,
+     "len": 2.16,
+     "layout": "full",
+     "x": 0.4
+    }
+   ]
+  },
+  {
+   "label": "#5 \u00b7 AMBROSIA",
+   "at": 22.74,
+   "shots": [
+    {
+     "src": "t1",
+     "in": 60.6,
+     "len": 1.6,
+     "layout": "full",
+     "x": 0.6
+    },
+    {
+     "src": "t2",
+     "in": 154.8,
+     "len": 1.68,
+     "layout": "full",
+     "x": 0.5
+    }
+   ]
+  },
+  {
+   "label": "",
+   "at": 26.02,
+   "shots": [
+    {
+     "src": "launch",
+     "in": 14.3,
+     "len": 0.85,
+     "layout": "full",
+     "x": 0.6
+    },
+    {
+     "src": "t2",
+     "in": 8.2,
+     "len": 1.5,
+     "layout": "full",
+     "x": 0.5
+    },
+    {
+     "src": "t1",
+     "in": 36.5,
+     "len": 1.1,
+     "layout": "full",
+     "x": 0.6
+    }
+   ]
+  }
+ ]
+}

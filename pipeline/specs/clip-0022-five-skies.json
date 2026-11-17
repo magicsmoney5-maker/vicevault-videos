@@ -1,0 +1,233 @@
+{
+ "id": "2026-11-17-0022",
+ "out": "/root/vvv/out/2026-11-17-0022-five-skies.mp4",
+ "voice": "/root/vvc/vo/0022.mp3",
+ "music": "/root/vvv/music/THEME-standard.mp3",
+ "music_gain_db": -18,
+ "credit": "Footage: Rockstar Games \u2013 GTA VI: An Extended Look & trailers",
+ "hook": {
+  "title": "5 SKIES",
+  "tag": "GTA 6 \u00b7 VICE CITY"
+ },
+ "end": {
+  "text": "GOLDEN HOUR OR\\NNEON NIGHT?",
+  "tag": "TELL US IN THE COMMENTS"
+ },
+ "highlights": [
+  "FIVE",
+  "SKIES",
+  "GOLDEN",
+  "FLAMINGOS",
+  "BLUE",
+  "TURQUOISE",
+  "AMBER",
+  "SHADOWS",
+  "PURPLE",
+  "NEON",
+  "PINK"
+ ],
+ "fixups": {
+  "GTA (6|VI|SIX)'S": "GTA 6'S",
+  "GTA (6|VI|SIX)\\b": "GTA 6",
+  "\\bFIVE SKIES\\b": "5 SKIES",
+  "OCEAN DRIVE": "OCEAN DRIVE"
+ },
+ "scenes": [
+  {
+   "label": "",
+   "at": 0,
+   "shots": [
+    {
+     "src": "ext",
+     "in": 745.5,
+     "len": 1.4,
+     "layout": "full",
+     "x": 0.5
+    },
+    {
+     "src": "t1",
+     "in": 3.1,
+     "len": 1.4,
+     "layout": "full",
+     "x": 0.5
+    },
+    {
+     "src": "t1",
+     "in": 32.8,
+     "len": 1.5,
+     "layout": "full",
+     "x": 0.45
+    }
+   ]
+  },
+  {
+   "label": "#1 \u00b7 GOLDEN HAZE",
+   "at": 4.04,
+   "shots": [
+    {
+     "src": "t1",
+     "in": 19.3,
+     "len": 1.6,
+     "layout": "full",
+     "x": 0.4
+    },
+    {
+     "src": "ext",
+     "in": 1030.2,
+     "len": 1.8,
+     "layout": "full",
+     "x": 0.5
+    },
+    {
+     "src": "t1",
+     "in": 20.5,
+     "len": 1.52,
+     "layout": "full",
+     "x": 0.55
+    }
+   ]
+  },
+  {
+   "label": "#2 \u00b7 MIDDAY BLUE",
+   "at": 8.96,
+   "shots": [
+    {
+     "src": "t1",
+     "in": 11.3,
+     "len": 1.5,
+     "layout": "full",
+     "x": 0.55
+    },
+    {
+     "src": "ext",
+     "in": 1043.3,
+     "len": 1.5,
+     "layout": "full",
+     "x": 0.5
+    },
+    {
+     "src": "ext",
+     "in": 1049.3,
+     "len": 1.5,
+     "layout": "full",
+     "x": 0.55
+    },
+    {
+     "src": "t1",
+     "in": 12.3,
+     "len": 1.52,
+     "layout": "full",
+     "x": 0.45
+    }
+   ]
+  },
+  {
+   "label": "#3 \u00b7 GOLDEN HOUR",
+   "at": 14.98,
+   "shots": [
+    {
+     "src": "ext",
+     "in": 762.0,
+     "len": 1.5,
+     "layout": "full",
+     "x": 0.5
+    },
+    {
+     "src": "ext",
+     "in": 766.5,
+     "len": 1.5,
+     "layout": "full",
+     "x": 0.6
+    },
+    {
+     "src": "ext",
+     "in": 776.0,
+     "len": 1.5,
+     "layout": "full",
+     "x": 0.6
+    },
+    {
+     "src": "ext",
+     "in": 786.0,
+     "len": 1.44,
+     "layout": "full",
+     "x": 0.5
+    }
+   ]
+  },
+  {
+   "label": "#4 \u00b7 SUNSET",
+   "at": 20.92,
+   "shots": [
+    {
+     "src": "t2",
+     "in": 83.3,
+     "len": 1.8,
+     "layout": "full",
+     "x": 0.5
+    },
+    {
+     "src": "t2",
+     "in": 81.5,
+     "len": 1.6,
+     "layout": "full",
+     "x": 0.45
+    }
+   ]
+  },
+  {
+   "label": "#5 \u00b7 NEON NIGHT",
+   "at": 24.54,
+   "shots": [
+    {
+     "src": "t1",
+     "in": 32.7,
+     "len": 1.4,
+     "layout": "full",
+     "x": 0.4
+    },
+    {
+     "src": "pre",
+     "in": 18.7,
+     "len": 1.3,
+     "layout": "full",
+     "x": 0.5
+    },
+    {
+     "src": "ext",
+     "in": 1122.5,
+     "len": 1.76,
+     "layout": "full",
+     "x": 0.5
+    }
+   ]
+  },
+  {
+   "label": "",
+   "at": 29.0,
+   "shots": [
+    {
+     "src": "t1",
+     "in": 31.2,
+     "len": 1.3,
+     "layout": "full",
+     "x": 0.5
+    },
+    {
+     "src": "ext",
+     "in": 1133.5,
+     "len": 1.7,
+     "layout": "full",
+     "x": 0.5
+    },
+    {
+     "src": "ext",
+     "in": 1135.5,
+     "len": 1.6,
+     "layout": "full",
+     "x": 0.5
+    }
+   ]
+  }
+ ]
+}

@@ -12,7 +12,7 @@ FOOT = os.environ.get("VVC_FOOT", os.path.expanduser("~/foot"))
 W, H, FPS = 1080, 1920, 30
 YEL = "&H001FD2FF"  # #FFD21F in ASS BGR
 # letterboxed sources: trim the baked-in black bars before scaling
-PRECROP = {"t2": "crop=3840:1728:0:216,", "launch": "crop=3840:1920:0:120,"}
+PRECROP = {"t2": "crop=3840:1728:0:216,", "launch": "crop=3840:1920:0:120,", "pre": "crop=3840:1920:0:120,"}
 
 
 def run(cmd):

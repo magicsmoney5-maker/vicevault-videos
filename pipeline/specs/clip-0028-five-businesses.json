@@ -1,0 +1,237 @@
+{
+ "id": "2026-11-18-0028",
+ "out": "/root/vvv/out/2026-11-18-0028-five-businesses.mp4",
+ "voice": "/root/vvc/vo/0028.mp3",
+ "music": "/root/vvv/music/THEME-standard.mp3",
+ "music_gain_db": -18,
+ "credit": "Footage: Rockstar Games \u2013 GTA VI trailers, Pre-Load Now & An Extended Look",
+ "hook": {
+  "title": "5 HIDDEN BUSINESSES",
+  "tag": "GTA 6 \u00b7 SPOTTED"
+ },
+ "end": {
+  "text": "HOTEL OR\\NMARINA?",
+  "tag": "TELL US IN THE COMMENTS"
+ },
+ "highlights": [
+  "5",
+  "BUSINESSES",
+  "A1",
+  "FASHIONS",
+  "AUDACITY",
+  "FERRIS",
+  "DOMINION",
+  "SUPERCARS",
+  "LOTTERY",
+  "MILLIONAIRE",
+  "BRIAN'S",
+  "555"
+ ],
+ "fixups": {
+  "\\bPOP -UP\\b": "POP-UP",
+  "GTA (6|VI|SIX)\\b": "GTA 6"
+ },
+ "scenes": [
+  {
+   "label": "",
+   "at": 0,
+   "shots": [
+    {
+     "src": "ext",
+     "in": 594.5,
+     "len": 1.6,
+     "layout": "full",
+     "x": 0.5
+    },
+    {
+     "src": "ext",
+     "in": 1099.2,
+     "len": 1.6,
+     "layout": "full",
+     "x": 0.5
+    }
+   ]
+  },
+  {
+   "label": "#5 \u00b7 A1 FASHIONS",
+   "at": 3.2,
+   "shots": [
+    {
+     "src": "ext",
+     "in": 544.2,
+     "len": 1.4,
+     "layout": "full",
+     "x": 0.75
+    },
+    {
+     "src": "ext",
+     "in": 545.0,
+     "len": 3.0,
+     "layout": "full",
+     "x": 0.5,
+     "still": true,
+     "pan": [
+      0.15,
+      0.75
+     ]
+    },
+    {
+     "src": "ext",
+     "in": 544.6,
+     "len": 1.0,
+     "layout": "full",
+     "x": 0.85
+    }
+   ]
+  },
+  {
+   "label": "#4 \u00b7 AUDACITY",
+   "at": 9.6,
+   "shots": [
+    {
+     "src": "pre",
+     "in": 5.3,
+     "len": 1.4,
+     "layout": "full",
+     "x": 0.15
+    },
+    {
+     "src": "pre",
+     "in": 5.6,
+     "len": 2.6,
+     "layout": "full",
+     "x": 0.5,
+     "still": true,
+     "pan": [
+      0.05,
+      0.6
+     ]
+    },
+    {
+     "src": "ext",
+     "in": 1049.0,
+     "len": 1.5,
+     "layout": "full",
+     "x": 0.5
+    }
+   ]
+  },
+  {
+   "label": "#3 \u00b7 DOMINION HOTEL",
+   "at": 15.2,
+   "shots": [
+    {
+     "src": "t2",
+     "in": 125.85,
+     "len": 0.8,
+     "layout": "full",
+     "x": 0.95
+    },
+    {
+     "src": "t2",
+     "in": 126.2,
+     "len": 2.2,
+     "layout": "full",
+     "x": 0.5,
+     "still": true,
+     "pan": [
+      0.65,
+      1.0
+     ]
+    },
+    {
+     "src": "ext",
+     "in": 1062.4,
+     "len": 1.6,
+     "layout": "full",
+     "x": 0.5
+    }
+   ]
+  },
+  {
+   "label": "#2 \u00b7 CORNER SHOP",
+   "at": 19.8,
+   "shots": [
+    {
+     "src": "t2",
+     "in": 41.7,
+     "len": 1.6,
+     "layout": "full",
+     "x": 0.0
+    },
+    {
+     "src": "t2",
+     "in": 42.0,
+     "len": 1.9,
+     "layout": "full",
+     "x": 0.0,
+     "still": true,
+     "zoom": 1.2
+    },
+    {
+     "src": "t2",
+     "in": 43.6,
+     "len": 0.8,
+     "layout": "full",
+     "x": 0.85
+    }
+   ]
+  },
+  {
+   "label": "#1 \u00b7 BRIAN'S BOAT WORKS",
+   "at": 24.6,
+   "shots": [
+    {
+     "src": "t2",
+     "in": 85.15,
+     "len": 0.8,
+     "layout": "full",
+     "x": 0.58
+    },
+    {
+     "src": "t2",
+     "in": 85.6,
+     "len": 2.4,
+     "layout": "full",
+     "x": 0.58,
+     "still": true,
+     "zoom": 1.25
+    },
+    {
+     "src": "launch",
+     "in": 5.2,
+     "len": 1.4,
+     "layout": "full",
+     "x": 0.5
+    },
+    {
+     "src": "launch",
+     "in": 11.95,
+     "len": 1.2,
+     "layout": "full",
+     "x": 0.6
+    }
+   ]
+  },
+  {
+   "label": "",
+   "at": 30.3,
+   "shots": [
+    {
+     "src": "ext",
+     "in": 1129.6,
+     "len": 1.9,
+     "layout": "full",
+     "x": 0.5
+    },
+    {
+     "src": "t2",
+     "in": 83.3,
+     "len": 2.0,
+     "layout": "full",
+     "x": 0.5
+    }
+   ]
+  }
+ ]
+}

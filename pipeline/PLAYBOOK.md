@@ -153,18 +153,22 @@ something needs his decision (a rule conflict, a credit limit, a broken connecti
   message.
 
 ## Streamer Moment format (from GTA 6 launch, 18 Nov 2026)
-Owner decision (12 Nov 2026): clipping other creators' streams as a service is allowed, accepting the risk, with
-**no spoilers in any form**. This section overrides hard rule 3 for stream clips only.
-- Sources, in order: (1) Content Rewards / Whop campaigns the Owner has joined (listed in Settings `stream_campaigns`),
-  (2) streamers in Settings `stream_watchlist`, (3) the Owner's own gameplay. Nothing else.
-- Find moments: `yt-dlp --flat-playlist --playlist-end 20 --print "%(view_count)s|%(duration)s|%(title)s|%(url)s"
-  "https://www.twitch.tv/<login>/clips?filter=clips&range=24hr"` for each watchlist login; take the most-viewed
-  clips under 60 s. If Settings has `twitch_client_id`/`twitch_client_secret`, use the official Helix API
-  (`GET https://api.twitch.tv/helix/clips?game_id=<GTA VI id>&started_at=<24h ago>`) to rank the whole category.
-- Spoiler check: view frames every 2 s. Reject any mission title card, cutscene, letterboxed story scene, objective
-  text naming a story mission, or a character reveal. Open-world, reactions, graphics, police chases and physics only.
-- Spec: see `pipeline/specs/stream-*.json`. `cam` is the streamer's facecam box in source pixels; set `game_x` so the
-  gameplay panel doesn't include the stream's own facecam overlay. `hook_at` is the peak reaction (cold open).
-- Render: `python3 stream_clip.py spec.json`. 15–45 s, streamer audio only (no Jet, no music), −14 LUFS.
-- Caption: hook line, then `🎥 @<streamer> on <platform>`, then 5 hashtags. Title: `<Streamer> <moment> in GTA 6 #Shorts`.
-- AI disclosure stays on. First 3 stream clips go to `Awaiting OK` (Owner review); after that, passing clips are booked.
+Owner decisions: clipping other creators' streams is allowed, accepting the risk (12 Nov). On 18 Nov the Owner
+relaxed the spoiler rule for stream clips: story missions and cutscenes that streamers broadcast are fine. **Never
+post the ending, final missions, credits or any late-game climax.** Stream clips post straight away (no review).
+This section overrides hard rules 1 and 3 for stream clips only.
+- Watchlist (Settings `stream_watchlist` overrides): kaicenat, ishowspeed, theburntpeanut, stableronaldo, ohnepixel,
+  typicalgamer, agent00. Plus any Content Rewards campaigns the Owner joined (Settings `stream_campaigns`).
+- Find moments: for each login, `yt-dlp --flat-playlist --playlist-end 10 --print
+  "%(view_count)s|%(duration)s|%(title)s|%(url)s" "https://www.twitch.tv/<login>/clips?filter=clips&range=24hr"`.
+  Twitch clips are what chat clipped when it got hyped: rank by views. Skip clips already in `Clips` (match the URL).
+  If Settings has `twitch_client_id`/`twitch_client_secret`, also rank the whole category via the official Helix API.
+- Reject: silent audio (Twitch mutes music: check `volumedetect` mean above −60 dB), ending/credits/final-mission
+  content, sexual content, real-world slurs in the hook or title. Frames every 3 s to check.
+- Spec: see `pipeline/specs/stream-*.json`. `cam` is the facecam box **in source pixels** (check the source size with
+  ffprobe; 1080p and 1440p both occur). Set `game_x` so the gameplay panel avoids the stream's own facecam overlay.
+  `hook_at` is the peak reaction (cold open). Keep 20–45 s.
+- Render: `python3 stream_clip.py spec.json`. Streamer audio only (no Jet, no music), −14 LUFS.
+- Caption: hook line + emoji question, `🎥 @<streamer> on Twitch. Clipped by Vice Vault Clips.`, 5 hashtags.
+  Title `<Streamer> <moment> in GTA 6 #Shorts`. AI disclosure false (no AI voice or footage in these).
+- Book into free slots at least 45 minutes apart (the four standard slots plus any free half-hour), all three networks.

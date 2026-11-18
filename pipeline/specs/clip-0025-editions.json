@@ -1,0 +1,279 @@
+{
+ "id": "2026-11-18-0025",
+ "out": "/root/vvv/out/2026-11-18-0025-editions.mp4",
+ "voice": "/root/vvc/vo/0025.mp3",
+ "music": "/root/vvv/music/THEME-standard.mp3",
+ "music_gain_db": -18,
+ "credit": "Footage: Rockstar Games \u2013 GTA VI trailers & An Extended Look",
+ "hook": {
+  "title": "STANDARD VS ULTIMATE",
+  "tag": "GTA 6 \u00b7 EDITIONS"
+ },
+ "end": {
+  "text": "STANDARD OR\\NULTIMATE?",
+  "tag": "TELL US IN THE COMMENTS"
+ },
+ "highlights": [
+  "$20",
+  "EDITIONS",
+  "STANDARD",
+  "ULTIMATE",
+  "$79.99",
+  "$99.99",
+  "CHEETAH",
+  "SQUALO",
+  "TATTOO",
+  "50",
+  "FAILE",
+  "GARAGE"
+ ],
+ "fixups": {
+  "\\bGRATI\\b": "GROTTI",
+  "\\bFAIL\\b": "FAILE",
+  "\\b95\\b": "'95",
+  "GTA (6|VI|SIX)'S": "GTA 6'S",
+  "GTA (6|VI|SIX)\\b": "GTA 6",
+  "\\bPARLOR\\b": "PARLOUR"
+ },
+ "cards": [
+  {
+   "at": 6.6,
+   "end": 8.3,
+   "text": "$79.99",
+   "sub": "STANDARD EDITION (US)"
+  },
+  {
+   "at": 8.5,
+   "end": 10.8,
+   "text": "$99.99",
+   "sub": "ULTIMATE EDITION (US)"
+  },
+  {
+   "at": 13.3,
+   "end": 15.5,
+   "text": "'95 GROTTI CHEETAH",
+   "sub": "ULTIMATE ONLY",
+   "size": 104
+  },
+  {
+   "at": 15.9,
+   "end": 17.9,
+   "text": "SQUALO BOAT",
+   "sub": "PINK + BLUE",
+   "size": 130
+  },
+  {
+   "at": 20.3,
+   "end": 23.8,
+   "text": "50+ TATTOOS",
+   "sub": "DESIGNED BY FAILE",
+   "size": 130
+  },
+  {
+   "at": 25.9,
+   "end": 27.9,
+   "text": "MOD SHOPS",
+   "sub": "+ CLOTHING STORES",
+   "size": 130
+  },
+  {
+   "at": 28.3,
+   "end": 30.2,
+   "text": "+ A GARAGE",
+   "sub": "ULTIMATE ONLY",
+   "size": 130
+  }
+ ],
+ "scenes": [
+  {
+   "label": "",
+   "at": 0,
+   "shots": [
+    {
+     "src": "ext",
+     "in": 511.1,
+     "len": 1.5,
+     "layout": "full",
+     "x": 0.5
+    },
+    {
+     "src": "t1",
+     "in": 23.45,
+     "len": 1.35,
+     "layout": "full",
+     "x": 0.55
+    },
+    {
+     "src": "ext",
+     "in": 527.1,
+     "len": 1.6,
+     "layout": "full",
+     "x": 0.5
+    },
+    {
+     "src": "ext",
+     "in": 516.0,
+     "len": 0.6,
+     "layout": "full",
+     "x": 0.5
+    }
+   ]
+  },
+  {
+   "label": "THE PRICE",
+   "at": 4.66,
+   "shots": [
+    {
+     "src": "t2",
+     "in": 41.85,
+     "len": 1.6,
+     "layout": "full",
+     "x": 0.85
+    },
+    {
+     "src": "ext",
+     "in": 521.1,
+     "len": 1.5,
+     "layout": "full",
+     "x": 0.5
+    },
+    {
+     "src": "ext",
+     "in": 533.1,
+     "len": 1.4,
+     "layout": "full",
+     "x": 0.5
+    },
+    {
+     "src": "ext",
+     "in": 516.6,
+     "len": 1.4,
+     "layout": "full",
+     "x": 0.5
+    }
+   ]
+  },
+  {
+   "label": "#1 \u00b7 THE RIDES",
+   "at": 10.92,
+   "shots": [
+    {
+     "src": "launch",
+     "in": 26.45,
+     "len": 1.0,
+     "layout": "full",
+     "x": 0.4
+    },
+    {
+     "src": "ext",
+     "in": 1063.5,
+     "len": 2.4,
+     "layout": "full",
+     "x": 0.5
+    },
+    {
+     "src": "launch",
+     "in": 5.15,
+     "len": 1.5,
+     "layout": "full",
+     "x": 0.5
+    },
+    {
+     "src": "launch",
+     "in": 10.05,
+     "len": 1.2,
+     "layout": "full",
+     "x": 0.45
+    },
+    {
+     "src": "t2",
+     "in": 140.2,
+     "len": 1.3,
+     "layout": "full",
+     "x": 0.6
+    }
+   ]
+  },
+  {
+   "label": "#2 \u00b7 THE LOOK",
+   "at": 18.02,
+   "shots": [
+    {
+     "src": "t2",
+     "in": 19.25,
+     "len": 1.4,
+     "layout": "full",
+     "x": 0.5
+    },
+    {
+     "src": "launch",
+     "in": 57.25,
+     "len": 1.3,
+     "layout": "full",
+     "x": 0.5
+    },
+    {
+     "src": "t1",
+     "in": 30.0,
+     "len": 1.1,
+     "layout": "full",
+     "x": 0.4
+    },
+    {
+     "src": "launch",
+     "in": 12.5,
+     "len": 1.6,
+     "layout": "full",
+     "x": 0.7
+    }
+   ]
+  },
+  {
+   "label": "#3 \u00b7 THE SHOPS",
+   "at": 23.98,
+   "shots": [
+    {
+     "src": "ext",
+     "in": 1026.5,
+     "len": 1.5,
+     "layout": "full",
+     "x": 0.6
+    },
+    {
+     "src": "t2",
+     "in": 46.05,
+     "len": 1.6,
+     "layout": "full",
+     "x": 0.5
+    },
+    {
+     "src": "ext",
+     "in": 545.3,
+     "len": 1.4,
+     "layout": "full",
+     "x": 0.55
+    },
+    {
+     "src": "ext",
+     "in": 505.15,
+     "len": 1.6,
+     "layout": "full",
+     "x": 0.5
+    }
+   ]
+  },
+  {
+   "label": "",
+   "at": 30.34,
+   "shots": [
+    {
+     "src": "ext",
+     "in": 1122.3,
+     "len": 2.4,
+     "layout": "full",
+     "x": 0.5
+    }
+   ]
+  }
+ ]
+}

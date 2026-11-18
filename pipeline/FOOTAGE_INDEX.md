@@ -31,3 +31,8 @@ Most of ext 0–440 and 1150–1580 is mission footage (heists, shootouts): only
 - Animals checked frame by frame: ext 1027.5–1029.8 birds by the murals are GULLS, not pigeons (no pigeons found in any official video) · launch 21.2–22.2 iguana (22.3+ red sports car, logo from 22.8) · t1 42.4–43.9 alligator hauled from a pool (social overlay text at the bottom; 41.33–42.4 is a suggestive yacht-party clip, avoid) · t1 21.0–21.7 flamingos with white egrets · ext 1030.4–1032.5 white egrets in the swamp · ext 1036.2–1038.7 cave diver under eagle rays and fish (rays clearest 1037.6–1038.6, top half).
 - Avoid: ext 541.2–541.8 (person falling from a bridge), ext 541.9+ (someone knocked down in the street), ext 565–567 (backyard wrestling), t2 41.85 full crop at x 0.5 (only a man's shorts; use x 0.85 for the ATM).
 - Fresh city driving: ext 505–534 red convertible (walk-up in a garage at 505, then street driving; minimap bottom-left is cropped out at x 0.5).
+
+## Notes added 18 Nov (morning make run)
+- Shop signs: ext 544.2–546.8 'A1 Fashions' + grocery 'FOOD BY THE POUND' (EAT/DROP HUD bottom-right; crop x ≥ 0.75 or ≤ 0.6 keeps it out; 546.9+ cuts to a dark scuffle, avoid) · pre 5.3–6.7 AudaCity booth with Ferris wheel · t2 125.85–126.6 'DOMINION HOTEL' (a man twerks on the left: crop x 0.95 / pan 0.65–1.0) · t2 41.7–42.4 'A NEW MILLIONAIRE EVERY WEEK' poster (x 0.0; at 43.0 it has left the frame) · t2 85.1–86 Brian's Boat Works & Marina, 786-555-0109.
+- Pre-Load Now has 120 px letterbox bars like the Launch Trailer; render.py now trims them.
+- Avoid: t2 5.6–6.2 is black (the Keys aerial starts ~6.3) · t1 30–31.1 two-man close-up (night aerial from 31.2) · t1 43.9+ cuts to another phone clip · t1 21.8–23.2 beach crowd is mostly bikinis walking to camera.

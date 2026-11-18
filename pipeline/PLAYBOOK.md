@@ -168,6 +168,11 @@ This section overrides hard rules 1 and 3 for stream clips only.
 - Spec: see `pipeline/specs/stream-*.json`. `cam` is the facecam box **in source pixels** (check the source size with
   ffprobe; 1080p and 1440p both occur). Set `game_x` so the gameplay panel avoids the stream's own facecam overlay.
   `hook_at` is the peak reaction (cold open). Keep 20–45 s.
+- **Context captions are REQUIRED (Owner, 18 Nov 2026, after Instagram flagged unoriginal content).** Every stream
+  clip gets our own commentary in the spec's `context`: 2–4 short lines (max ~55 characters each) as
+  `[[start, end, text], ...]` covering the whole clip, explaining what is happening and why it's funny or wild
+  (setup → the moment → payoff). Write them in our own words from the frames and transcript; never just repeat what
+  the streamer says. The hook card must also be our own phrasing. No context = do not book.
 - Render: `python3 stream_clip.py spec.json`. Streamer audio only (no Jet, no music), −14 LUFS.
 - Caption: hook line + emoji question, `🎥 @<streamer> on Twitch. Clipped by Vice Vault Clips.`, 5 hashtags.
   Title `<Streamer> <moment> in GTA 6 #Shorts`. AI disclosure false (no AI voice or footage in these).

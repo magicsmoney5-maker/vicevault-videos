@@ -14,6 +14,8 @@ Spec keys:
   game_x                0..1 horizontal crop position for the gameplay panel (default 0.5)
   hook {title, tag}     on-screen hook card for the cold open
   fixups {}             caption regex fixes, highlights []
+  context               our own context caption(s): a string, or [[start, end, text], ...] in seconds of the
+                        kept clip (after the cold open). REQUIRED for Instagram originality (Owner, 18 Nov 2026)
   captions              false if the stream already burns in its own captions (default true)
   Set game_x so the gameplay crop avoids the stream's own facecam overlay.
 
@@ -74,6 +76,7 @@ def build_ass(spec, words, total, hook_len):
         "Style: Label,Anton,64,&H00FFFFFF,&H00FFFFFF,&H00000000,&H96000000,0,0,0,0,100,100,1,0,1,4,2,5,60,60,0,1",
         "Style: Hook,Anton,110,&H00FFFFFF,&H00FFFFFF,&H00000000,&H96000000,0,0,0,0,100,100,1,0,1,6,4,5,60,60,0,1",
         "Style: Tag,Anton,50,&H00101010,&H00101010," + YEL + ",&H00000000,0,0,0,0,100,100,1,0,3,14,0,5,60,60,0,1",
+        "Style: Ctx,Anton,62,&H00FFFFFF,&H00FFFFFF,&H40000000,&H00000000,0,0,0,0,100,100,1,0,3,18,0,5,90,90,0,1",
         "", "[Events]", "Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text",
     ]
     ev = []
@@ -84,6 +87,12 @@ def build_ass(spec, words, total, hook_len):
     hk = spec["hook"]
     ev.append(f"Dialogue: 2,{ass_time(0)},{ass_time(hook_len)},Hook,,0,0,0,,{{\\pos(540,{CAM_H + 330})\\fad(0,150)}}{esc_ass(hk['title'])}")
     ev.append(f"Dialogue: 2,{ass_time(0)},{ass_time(hook_len)},Tag,,0,0,0,,{{\\pos(540,{CAM_H + 470})\\fad(0,150)}}{esc_ass(hk['tag'])}")
+    # context captions: our own commentary explaining the moment (Instagram originality, Owner 18 Nov)
+    ctx = spec.get("context") or []
+    if isinstance(ctx, str):
+        ctx = [[0, total - hook_len, ctx]]
+    for a, b, text in ctx:
+        ev.append(f"Dialogue: 3,{ass_time(hook_len + a)},{ass_time(min(total, hook_len + b))},Ctx,,0,0,0,,{{\\pos(540,1560)}}{esc_ass(text)}")
     for (a, b, text) in (chunks(words, spec.get("fixups", {})) if spec.get("captions", True) else []):
         parts = []
         for tok in text.split():

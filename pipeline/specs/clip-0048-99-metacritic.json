@@ -1,0 +1,268 @@
+{
+ "id": "2026-11-19-0048",
+ "out": "/root/vvv/out/2026-11-19-0048-99-metacritic.mp4",
+ "voice": "/root/vvc/vo/0048.mp3",
+ "music": "/root/vvv/music/THEME-breaking-news.mp3",
+ "music_gain_db": -17,
+ "credit": "Footage: Rockstar Games \u2013 GTA VI trailers, Pre-Load Now & An Extended Look",
+ "hook": {
+  "title": "99 ON METACRITIC",
+  "tag": "GTA 6 \u00b7 REVIEWS ARE IN"
+ },
+ "end": {
+  "text": "MASTERPIECE OR\\NOVERHYPED?",
+  "tag": "TELL US IN THE COMMENTS"
+ },
+ "highlights": [
+  "99",
+  "METACRITIC",
+  "RECORD",
+  "OCARINA",
+  "1998",
+  "DETAIL",
+  "DRIVING",
+  "TRAFFIC",
+  "LIGHT",
+  "30",
+  "MASTERPIECE",
+  "OVERHYPED"
+ ],
+ "fixups": {
+  "GTA (6|VI|SIX)\\b": "GTA 6",
+  "\\bALL -TIME\\b": "ALL-TIME"
+ },
+ "cards": [
+  {
+   "at": 6.3,
+   "end": 11.4,
+   "text": "99",
+   "sub": "OCARINA OF TIME \u00b7 1998",
+   "y": 800
+  },
+  {
+   "at": 27.1,
+   "end": 29.9,
+   "text": "30 FPS",
+   "sub": "CONSOLE TARGET",
+   "y": 800
+  }
+ ],
+ "scenes": [
+  {
+   "label": "",
+   "at": 0,
+   "shots": [
+    {
+     "src": "ext",
+     "in": 784.3,
+     "len": 1.8,
+     "layout": "full",
+     "x": 0.5
+    },
+    {
+     "src": "ext",
+     "in": 1062.4,
+     "len": 1.7,
+     "layout": "full",
+     "x": 0.5
+    },
+    {
+     "src": "t2",
+     "in": 34.65,
+     "len": 2.1,
+     "layout": "full",
+     "x": 0.5
+    }
+   ]
+  },
+  {
+   "label": "ALL-TIME RECORD",
+   "at": 5.05,
+   "shots": [
+    {
+     "src": "t2",
+     "in": 6.4,
+     "len": 1.8,
+     "layout": "full",
+     "x": 0.5
+    },
+    {
+     "src": "t1",
+     "in": 35.75,
+     "len": 1.6,
+     "layout": "full",
+     "x": 0.5
+    },
+    {
+     "src": "pre",
+     "in": 11.25,
+     "len": 1.35,
+     "layout": "full",
+     "x": 0.5
+    },
+    {
+     "src": "t1",
+     "in": 70.4,
+     "len": 1.8,
+     "layout": "full",
+     "x": 0.5
+    }
+   ]
+  },
+  {
+   "label": "THE VERDICT",
+   "at": 11.6,
+   "shots": [
+    {
+     "src": "ext",
+     "in": 655,
+     "len": 2.1,
+     "layout": "full",
+     "x": 0.5
+    }
+   ]
+  },
+  {
+   "label": "THE DETAIL",
+   "at": 13.7,
+   "shots": [
+    {
+     "src": "t2",
+     "in": 41.7,
+     "len": 1.5,
+     "layout": "full",
+     "x": 0.0
+    },
+    {
+     "src": "t2",
+     "in": 85.15,
+     "len": 0.85,
+     "layout": "full",
+     "x": 0.58
+    },
+    {
+     "src": "ext",
+     "in": 544.4,
+     "len": 1.4,
+     "layout": "full",
+     "x": 0.75
+    },
+    {
+     "src": "t2",
+     "in": 118.87,
+     "len": 0.7,
+     "layout": "full",
+     "x": 0.5
+    }
+   ]
+  },
+  {
+   "label": "THE DRIVING",
+   "at": 18.1,
+   "shots": [
+    {
+     "src": "ext",
+     "in": 786.3,
+     "len": 1.6,
+     "layout": "full",
+     "x": 0.5
+    },
+    {
+     "src": "ext",
+     "in": 788.3,
+     "len": 1.4,
+     "layout": "full",
+     "x": 0.5
+    },
+    {
+     "src": "launch",
+     "in": 47.75,
+     "len": 1.25,
+     "layout": "full",
+     "x": 0.5
+    }
+   ]
+  },
+  {
+   "label": "THE LIGHT",
+   "at": 22.45,
+   "shots": [
+    {
+     "src": "t1",
+     "in": 3.1,
+     "len": 1.2,
+     "layout": "full",
+     "x": 0.5
+    },
+    {
+     "src": "t2",
+     "in": 83.3,
+     "len": 1.1,
+     "layout": "full",
+     "x": 0.5
+    },
+    {
+     "src": "pre",
+     "in": 18.65,
+     "len": 1.2,
+     "layout": "full",
+     "x": 0.5
+    }
+   ]
+  },
+  {
+   "label": "THE CATCH",
+   "at": 25.85,
+   "shots": [
+    {
+     "src": "launch",
+     "in": 49.05,
+     "len": 1.5,
+     "layout": "full",
+     "x": 0.5
+    },
+    {
+     "src": "t1",
+     "in": 65.65,
+     "len": 1.0,
+     "layout": "full",
+     "x": 0.5
+    },
+    {
+     "src": "ext",
+     "in": 1115,
+     "len": 1.6,
+     "layout": "full",
+     "x": 0.5
+    }
+   ]
+  },
+  {
+   "label": "",
+   "at": 30.0,
+   "shots": [
+    {
+     "src": "ext",
+     "in": 1133.6,
+     "len": 2.3,
+     "layout": "full",
+     "x": 0.5
+    },
+    {
+     "src": "t1",
+     "in": 11.3,
+     "len": 1.5,
+     "layout": "full",
+     "x": 0.5
+    },
+    {
+     "src": "launch",
+     "in": 55.25,
+     "len": 1.0,
+     "layout": "full",
+     "x": 0.5
+    }
+   ]
+  }
+ ]
+}

@@ -151,3 +151,29 @@ something needs his decision (a rule conflict, a credit limit, a broken connecti
 - Metricool refuses: log the error text, leave the clip `Approved` with the video URL so the next run can book it.
 - Sheet unreachable: still book (Metricool is the real queue), and put the rows you would have written in the final
   message.
+
+## Streamer Moment format (from GTA 6 launch, 18 Nov 2026)
+Owner decisions: clipping other creators' streams is allowed, accepting the risk (12 Nov). On 18 Nov the Owner
+relaxed the spoiler rule for stream clips: story missions and cutscenes that streamers broadcast are fine. **Never
+post the ending, final missions, credits or any late-game climax.** Stream clips post straight away (no review).
+This section overrides hard rules 1 and 3 for stream clips only.
+- Watchlist (Settings `stream_watchlist` overrides): kaicenat, ishowspeed, theburntpeanut, stableronaldo, ohnepixel,
+  typicalgamer, agent00. Plus any Content Rewards campaigns the Owner joined (Settings `stream_campaigns`).
+- Find moments: for each login, `yt-dlp --flat-playlist --playlist-end 10 --print
+  "%(view_count)s|%(duration)s|%(title)s|%(url)s" "https://www.twitch.tv/<login>/clips?filter=clips&range=24hr"`.
+  Twitch clips are what chat clipped when it got hyped: rank by views. Skip clips already in `Clips` (match the URL).
+  If Settings has `twitch_client_id`/`twitch_client_secret`, also rank the whole category via the official Helix API.
+- Reject: silent audio (Twitch mutes music: check `volumedetect` mean above −60 dB), ending/credits/final-mission
+  content, sexual content, real-world slurs in the hook or title. Frames every 3 s to check.
+- Spec: see `pipeline/specs/stream-*.json`. `cam` is the facecam box **in source pixels** (check the source size with
+  ffprobe; 1080p and 1440p both occur). Set `game_x` so the gameplay panel avoids the stream's own facecam overlay.
+  `hook_at` is the peak reaction (cold open). Keep 20–45 s.
+- **Context captions are REQUIRED (Owner, 18 Nov 2026, after Instagram flagged unoriginal content).** Every stream
+  clip gets our own commentary in the spec's `context`: 2–4 short lines (max ~55 characters each) as
+  `[[start, end, text], ...]` covering the whole clip, explaining what is happening and why it's funny or wild
+  (setup → the moment → payoff). Write them in our own words from the frames and transcript; never just repeat what
+  the streamer says. The hook card must also be our own phrasing. No context = do not book.
+- Render: `python3 stream_clip.py spec.json`. Streamer audio only (no Jet, no music), −14 LUFS.
+- Caption: hook line + emoji question, `🎥 @<streamer> on Twitch. Clipped by Vice Vault Clips.`, 5 hashtags.
+  Title `<Streamer> <moment> in GTA 6 #Shorts`. AI disclosure false (no AI voice or footage in these).
+- Book into free slots at least 45 minutes apart (the four standard slots plus any free half-hour), all three networks.

@@ -1,0 +1,27 @@
+{
+ "id": "stream-test-meow",
+ "out": "out.mp4",
+ "start": 0,
+ "end": 44.9,
+ "hook_at": 19.0,
+ "hook_len": 1.8,
+ "streamer": "MeowSparky",
+ "platform": "Twitch",
+ "cam": [
+  0,
+  645,
+  555,
+  420
+ ],
+ "game_x": 0.66,
+ "hook": {
+  "title": "LIQUID GRAPHICS",
+  "tag": "GTA 6 FIRST HOUR"
+ },
+ "highlights": [
+  "BEER",
+  "GRAPHICS",
+  "LIQUID"
+ ],
+ "url": "https://www.twitch.tv/meowsparky/clip/CreativeSolidHabaneroSaltBae-VD3J-zUoTie3GhOr"
+}
